@@ -1,0 +1,2 @@
+# Установщик не коммитится: он публикуется как единственный перезаписываемый ассет GitHub Release (gh release upload --clobber).
+YumiAgent-Setup.exe

@@ -1,0 +1,16 @@
+# Проверка синтаксиса update.json при push (без Pages и без exe в репозитории).
+name: Validate update.json
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Parse update.json
+        run: python3 -c "import json; json.load(open('update.json')); print('OK')"
