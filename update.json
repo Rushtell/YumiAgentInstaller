@@ -1,12 +1,12 @@
 {
-    "version":  "1.2.21",
+    "version":  "1.2.22",
     "installerFileName":  "YumiAgent-Setup.exe",
     "downloadUrl":  "https://github.com/Rushtell/YumiAgentInstaller/releases/download/yumi-agent-installer/YumiAgent-Setup.exe",
-    "publishedAtUtc":  "2026-10-25T08:48:17Z",
+    "publishedAtUtc":  "2026-10-25T09:15:37Z",
     "assets":  {
                    "windowsSetup":  {
                                         "fileName":  "YumiAgent-Setup.exe",
-                                        "sha256":  "8adf75c4ea535f05f3e485ba5b1429e4741e949b139f4ea857b7eb7161808a0c"
+                                        "sha256":  "176d188d52ce9f3f6ce7153e17e41f94627deb8c9be6fb8205a572bff0f39ea1"
                                     }
                }
 }
